@@ -1,4 +1,4 @@
-import Results from "@/components/Results";
+import Results from "../../../components/Results.jsx";
 import React from "react";
 
 export default async function SearchPage({ params }) {
