@@ -1,0 +1,126 @@
+[debug] [2024-05-14T16:58:00.461Z] ----------------------------------------------------------------------
+[debug] [2024-05-14T16:58:00.463Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Kavindu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-05-14T16:58:00.463Z] CLI Version:   13.8.3
+[debug] [2024-05-14T16:58:00.464Z] Platform:      win32
+[debug] [2024-05-14T16:58:00.464Z] Node Version:  v18.17.0
+[debug] [2024-05-14T16:58:00.465Z] Time:          Tue May 14 2024 22:28:00 GMT+0530 (India Standard Time)
+[debug] [2024-05-14T16:58:00.465Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-14T16:58:00.562Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-14T16:58:00.563Z] > authorizing via signed-in user (jayakodyk2@gmail.com)
+[debug] [2024-05-14T16:58:00.563Z] [iam] checking project imbd-clone-78261 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-14T16:58:00.566Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/imbd-clone-78261:testIamPermissions [none]
+[debug] [2024-05-14T16:58:00.566Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/imbd-clone-78261:testIamPermissions x-goog-quota-user=projects/imbd-clone-78261
+[debug] [2024-05-14T16:58:00.566Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/imbd-clone-78261:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-14T16:58:02.282Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/imbd-clone-78261:testIamPermissions 200
+[debug] [2024-05-14T16:58:02.282Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/imbd-clone-78261:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-14T16:58:02.284Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/imbd-clone-78261 [none]
+[debug] [2024-05-14T16:58:03.048Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/imbd-clone-78261 200
+[debug] [2024-05-14T16:58:03.049Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/imbd-clone-78261 {"projectId":"imbd-clone-78261","projectNumber":"935876381137","displayName":"IMBD Clone","name":"projects/imbd-clone-78261","resources":{"hostingSite":"imbd-clone-78261"},"state":"ACTIVE","etag":"1_f73fd055-95d3-471e-9dd1-c4a770ba6939"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 14.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-05-14T16:58:14.208Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/imbd-clone-78261/sites/imbd-clone-78261 [none]
+[debug] [2024-05-14T16:58:15.513Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/imbd-clone-78261/sites/imbd-clone-78261 200
+[debug] [2024-05-14T16:58:15.513Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/imbd-clone-78261/sites/imbd-clone-78261 {"name":"projects/imbd-clone-78261/sites/imbd-clone-78261","defaultUrl":"https://imbd-clone-78261.web.app","type":"DEFAULT_SITE"}
+[info]   ▲ Next.js 14.2.3
+
+[info]   - Environments: .env.local
+
+
+[info]    Creating an optimized production build ...
+
+[info] Failed to compile.
+
+
+[info] ./src/app/search/[searchTerm]/page.jsx
+Module not found: Can't resolve '@/components/Results'
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[info] 
+
+[info] > Build failed because of webpack errors
+
+[debug] [2024-05-14T16:58:24.371Z] Error: ENOENT: no such file or directory, open 'C:\Users\Kavindu\Desktop\imbd-project\.next\server\middleware-manifest.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-05-14T16:59:30.014Z] ----------------------------------------------------------------------
+[debug] [2024-05-14T16:59:30.016Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Kavindu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-05-14T16:59:30.016Z] CLI Version:   13.8.3
+[debug] [2024-05-14T16:59:30.017Z] Platform:      win32
+[debug] [2024-05-14T16:59:30.017Z] Node Version:  v18.17.0
+[debug] [2024-05-14T16:59:30.018Z] Time:          Tue May 14 2024 22:29:30 GMT+0530 (India Standard Time)
+[debug] [2024-05-14T16:59:30.018Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-14T16:59:30.091Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-14T16:59:30.092Z] > authorizing via signed-in user (jayakodyk2@gmail.com)
+[debug] [2024-05-14T16:59:30.092Z] [iam] checking project imbd-clone-78261 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-14T16:59:30.094Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/imbd-clone-78261:testIamPermissions [none]
+[debug] [2024-05-14T16:59:30.094Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/imbd-clone-78261:testIamPermissions x-goog-quota-user=projects/imbd-clone-78261
+[debug] [2024-05-14T16:59:30.095Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/imbd-clone-78261:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-14T16:59:31.793Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/imbd-clone-78261:testIamPermissions 200
+[debug] [2024-05-14T16:59:31.793Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/imbd-clone-78261:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-14T16:59:31.794Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/imbd-clone-78261 [none]
+[debug] [2024-05-14T16:59:32.426Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/imbd-clone-78261 200
+[debug] [2024-05-14T16:59:32.427Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/imbd-clone-78261 {"projectId":"imbd-clone-78261","projectNumber":"935876381137","displayName":"IMBD Clone","name":"projects/imbd-clone-78261","resources":{"hostingSite":"imbd-clone-78261"},"state":"ACTIVE","etag":"1_f73fd055-95d3-471e-9dd1-c4a770ba6939"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 14.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-05-14T16:59:43.344Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/imbd-clone-78261/sites/imbd-clone-78261 [none]
+[debug] [2024-05-14T16:59:44.519Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/imbd-clone-78261/sites/imbd-clone-78261 200
+[debug] [2024-05-14T16:59:44.519Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/imbd-clone-78261/sites/imbd-clone-78261 {"name":"projects/imbd-clone-78261/sites/imbd-clone-78261","defaultUrl":"https://imbd-clone-78261.web.app","type":"DEFAULT_SITE"}
+[info]   ▲ Next.js 14.2.3
+
+[info]   - Environments: .env.local
+
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully
+
+[info]    Linting and checking validity of types ...
+
+[info] 
+Failed to compile.
+
+./src/app/about/page.jsx
+8:27  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+9:35  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+11:12  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+19:76  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./src/app/error.jsx
+6:3  Error: React Hook "useEffect" is called in function "error" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".  react-hooks/rules-of-hooks
+
+./src/app/loading.jsx
+6:7  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/app/movie/[id]/page.jsx
+14:9  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+./src/components/Card.jsx
+10:9  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+
+[debug] [2024-05-14T17:00:09.272Z] Error: ENOENT: no such file or directory, open 'C:\Users\Kavindu\Desktop\imbd-project\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
